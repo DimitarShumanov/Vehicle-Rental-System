@@ -16,9 +16,9 @@ An abstract base class that defines common properties and methods for all vehicl
 ## Car, Motorcycle, and CargoVan Classes
 These classes inherit from the Vehicle class and implement the rental and insurance calculation methods specific to each type.
 
-### Car: Insurance cost can be reduced based on the safety rating.
-### Motorcycle: Insurance cost can be increased if the rider is under 25 years old.
-### CargoVan: Insurance cost can be reduced based on the driver's experience.
+- Car: Insurance cost can be reduced based on the safety rating.
+- Motorcycle: Insurance cost can be increased if the rider is under 25 years old.
+- CargoVan: Insurance cost can be reduced based on the driver's experience.
 
 ## Rental Class
 Represents a rental transaction. It includes the customer's name, reservation dates, actual return date, and the vehicle being rented. This class also prints the rental details, including all costs and any discounts applied.
